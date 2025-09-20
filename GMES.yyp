@@ -37,9 +37,7 @@
   "resources":[
     {"id":{"name":"fnt_8bit","path":"fonts/fnt_8bit/fnt_8bit.yy",},},
     {"id":{"name":"obj_CPU","path":"objects/obj_CPU/obj_CPU.yy",},},
-    {"id":{"name":"obj_engine","path":"objects/obj_engine/obj_engine.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"Controller","path":"scripts/Controller/Controller.yy",},},
     {"id":{"name":"RAM","path":"scripts/RAM/RAM.yy",},},
   ],
   "resourceType":"GMProject",

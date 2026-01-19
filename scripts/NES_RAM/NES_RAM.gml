@@ -1,4 +1,4 @@
-function RAM() constructor  {
+function NES_RAM() constructor  {
     memory = buffer_create(2048, buffer_fixed, 1);
     
     static write = function(_value, _address, _signed) {

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"NES_RAM",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"NES_RAM",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

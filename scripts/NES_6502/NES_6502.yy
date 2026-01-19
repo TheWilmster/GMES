@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"RAM",
+  "%Name":"NES_6502",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"RAM",
+  "name":"NES_6502",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

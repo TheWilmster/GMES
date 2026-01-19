@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"GMES",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -27,18 +27,22 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"smb.nes","CopyToMask":-1,"filePath":"datafiles","name":"smb.nes","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"GMES",
   "resources":[
     {"id":{"name":"fnt_8bit","path":"fonts/fnt_8bit/fnt_8bit.yy",},},
-    {"id":{"name":"obj_CPU","path":"objects/obj_CPU/obj_CPU.yy",},},
+    {"id":{"name":"obj_emu","path":"objects/obj_emu/obj_emu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"RAM","path":"scripts/RAM/RAM.yy",},},
+    {"id":{"name":"NES_6502","path":"scripts/NES_6502/NES_6502.yy",},},
+    {"id":{"name":"NES_Misc","path":"scripts/NES_Misc/NES_Misc.yy",},},
+    {"id":{"name":"NES_RAM","path":"scripts/NES_RAM/NES_RAM.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

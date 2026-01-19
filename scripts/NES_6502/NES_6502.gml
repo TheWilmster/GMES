@@ -314,7 +314,15 @@ function NES_InstrTYA(value) {
 #region Opcodes
 
 function OPCODE_INIT() {
-    OPCODES[($00)] = 
+    OPCODES[($00)] = function() {
+        NES_InstrBRK(undefined);
+    };
+    OPCODES[($01)] = function() {
+        NES_InstrORA(buffer_read(program.data, buffer_u8));
+    };
+    OPCODES[($02)] = function() {
+        
+    }
 }
 
 #endregion

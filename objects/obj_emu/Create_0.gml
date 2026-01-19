@@ -66,9 +66,9 @@ global.__register = {
 flags = 0;
 
 // i fucking hate this so much
-OPCODES = array_create(256, function(value) {});
+OPCODES = array_create(256, function() {});
 
-
+OPCODE_INIT();
 
 enum RegisterFlag {
     Carry = 1,
@@ -79,4 +79,19 @@ enum RegisterFlag {
     None = 32,
     Overflow = 64,
     Negative = 128
+}
+
+buffer_seek(program.data, buffer_seek_start, 0);
+
+mem_info = {
+    address: 0,
+    data: 0,
+}
+read_from_program = function() {
+    mem_info = {
+        address: buffer_tell(program.data),
+        data: buffer_read(program.data, buffer_u8),
+    }
+    buffer_seek(program.data, buffer_seek_relative, 1);
+    return mem_info.data;
 }
